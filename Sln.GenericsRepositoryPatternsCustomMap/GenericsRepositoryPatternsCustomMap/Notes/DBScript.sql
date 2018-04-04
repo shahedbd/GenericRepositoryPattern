@@ -49,7 +49,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-ALTER PROC [dbo].[sp_personalinfo] (
+create PROC [dbo].[sp_personalinfo] (
 @PersonalInfoID bigint = NULL,
 @FirstName nchar(100) = NULL,
 @LastName nchar(100) = NULL,
